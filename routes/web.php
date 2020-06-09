@@ -11,13 +11,7 @@
 |
 */
 
-/**
- * 
- * Páginas do Site
- * 
- */
-
-Route::get('/', 'HomeController@index')->name('home');
-Route::get('/questoes', 'HomeController@questoes')->name('questoes');
-Route::get('/q1', 'HomeController@q1')->name('q1');
-Route::get('/q2', 'HomeController@q2')->name('q2');
+Route::get('/', 'PagesController@index');
+Route::get('/labsys', 'PagesController@labsys');
+Route::get('questao_1', 'PagesController@questao1');
+Route::get('questao_2', 'PagesController@questao2');

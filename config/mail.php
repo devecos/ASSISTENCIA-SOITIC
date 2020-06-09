@@ -57,7 +57,7 @@ return [
 
     'from' => [
         'address' => 'no-reply@ecosoitic.com.br',
-        'name' =>'Arquivoteca',
+        'name' =>'LabMatos',
     ],
 
     /*
